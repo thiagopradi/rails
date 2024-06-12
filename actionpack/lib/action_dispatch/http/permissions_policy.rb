@@ -85,7 +85,10 @@ module ActionDispatch # :nodoc:
       accelerometer:        "accelerometer",
       ambient_light_sensor: "ambient-light-sensor",
       autoplay:             "autoplay",
+      battery:              "battery",
+      bluetooth:            "bluetooth",
       camera:               "camera",
+      cross_origin_isolated: "cross-origin-isolated",
       display_capture:      "display-capture",
       encrypted_media:      "encrypted-media",
       fullscreen:           "fullscreen",
@@ -97,13 +100,17 @@ module ActionDispatch # :nodoc:
       magnetometer:         "magnetometer",
       microphone:           "microphone",
       midi:                 "midi",
+      navigation_override:  "navigation-override",
       payment:              "payment",
       picture_in_picture:   "picture-in-picture",
+      publickey_credentials_get: "publickey-credentials-get",
       screen_wake_lock:     "screen-wake-lock",
       serial:               "serial",
       sync_xhr:             "sync-xhr",
       usb:                  "usb",
       web_share:            "web-share",
+      window_management:    "window-management",
+      xr_spatial_tracking:  "xr-spatial-tracking"
     }.freeze
 
     private_constant :MAPPINGS, :DIRECTIVES
